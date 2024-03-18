@@ -5,7 +5,7 @@ html {
 body {
   margin: 0;
   font-family: "Work Sans", sans-serif;
-  background-color: rgba(228, 135, 132, 0.911);
+  background-color: rgba(182, 132, 228, 0.911);
 }
 
 .apaixonado{
@@ -238,9 +238,13 @@ body {
   overflow-y: auto;
 }
 
-.nine p {
+.nine  {
   font-size: 2rem;
-  font-weight: lighter;
+  font-weight: bold;
+}
+
+.nine p {
+  margin-bottom: 50px;
 }
 
 #replay {
@@ -296,8 +300,9 @@ body {
   }
 
   .six .hat {
-    width: 50px;
-    top: -20px;
+    width: 70px;
+    top: -70px;
+    left: 170px;
   }
 
   .wish-hbd {

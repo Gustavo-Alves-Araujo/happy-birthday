@@ -58,11 +58,11 @@ const animationTimeline = () => {
     .to(".container", 0.1, {
       visibility: "visible"
     })
-    .from(".one", 0.7, {
+    .from(".one", 1.5, {
       opacity: 0,
       y: 10
     })
-    .from(".two", 0.4, {
+    .from(".two", 0.7, {
       opacity: 0,
       y: 10
     })
@@ -77,21 +77,21 @@ const animationTimeline = () => {
     )
     .to(
       ".two",
-      0.7,
+      1.5,
       {
         opacity: 0,
         y: 10
       },
       "-=1"
     )
-    .from(".three", 0.7, {
+    .from(".three", 1.5, {
       opacity: 0,
       y: 10
       // scale: 0.7
     })
     .to(
       ".three",
-      0.7,
+      1.5,
       {
         opacity: 0,
         y: 10
@@ -119,7 +119,7 @@ const animationTimeline = () => {
     })
     .to(
       ".four",
-      0.5,
+      0.9,
       {
         scale: 0.2,
         opacity: 0,
@@ -272,8 +272,8 @@ const animationTimeline = () => {
         visibility: "visible",
         opacity: 0,
         scale: 80,
-        repeat: 3,
-        repeatDelay: 1.4
+        repeat: 2,
+        repeatDelay: 1.1
       },
       0.3
     )
